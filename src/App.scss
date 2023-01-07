@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+html, body, #root, .App {
+    min-height: 100vh;
+}
+
+.App {
+    border: 7px solid #FFDF8C;
+    padding: 12px;
+    position: relative;
+}
+
+@media (min-width: 550px) {
+    .App {
+        border: 18px solid #FFDF8C;
+        padding: 25px 30px;
+    }
+}
+
+@media (min-width: 1080px) {
+    .App {
+        border: 25px solid #FFDF8C;
+        padding: 35px 40px;
+    }
+}

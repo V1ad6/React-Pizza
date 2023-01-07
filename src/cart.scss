@@ -1,0 +1,230 @@
+.page {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.cart {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.cart__title {
+    font-size: 25px;
+    margin-bottom: -10px;
+    display: flex;
+    align-items: center;
+
+    svg {
+        margin-right: 10px;
+    }
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.cart__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 95%;
+
+    p {
+        font-size: 16px;
+        margin-top: 21px;
+        font-weight: 500;
+
+        &:last-child {
+            b {
+                color: #FE5F1E;
+            }
+        }
+    }
+}
+
+.cart__buy {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    margin: 23px auto 0;
+
+    button {
+        width: 100%;
+        height: 45px;
+        border-radius: 30px;
+        border: 2px solid #FE5F1E;
+        background-color: #FE5F1E;
+        color: white;
+        font-weight: 600;
+        -webkit-transition: all 300ms;
+        -moz-transition: all 300ms;
+        -o-transition: all 300ms;
+        transition: all 300ms;
+
+        &:hover {
+            background-color: #ffffff;
+            color: #ff4800;
+        }
+    }
+}
+
+.anyOrders {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+
+    h1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+        margin-bottom: 8px;
+
+        img {
+            margin-left: 13px;
+        }
+    }
+
+    p {
+        text-align: center;
+        margin-top: 11px;
+        font-size: 13px;
+        line-height: 23px;
+    }
+
+    .mtCart {
+        width: 250px;
+        margin-top: 45px;
+        margin-bottom: 60px;
+    }
+
+    .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 600;
+        width: 210px;
+        height: 46px;
+        color: white;
+        background-color: black;
+        border: 2px solid black;
+        border-radius: 30px;
+        -webkit-transition: all 300ms;
+        -moz-transition: all 300ms;
+        -o-transition: all 300ms;
+        transition: all 300ms;
+
+        &:hover {
+            color: black;
+            background-color: white;
+        }
+    }
+}
+
+@media (min-width: 550px) {
+    .cart__info {
+        flex-direction: row;
+        margin-top: 27px;
+
+        p {
+            margin-top: 0;
+        }
+    }
+
+    .cart__buy {
+        margin-top: 33px;
+    }
+
+    .anyOrders {
+        p {
+            width: 400px;
+            line-height: 25px;
+        }
+    }
+}
+
+@media (min-width: 650px) {
+    .cart__info p {
+        font-size: 18px;
+    }
+
+    .cart__info, .cart__buy {
+        width: 100%;
+        margin-top: 35px;
+    }
+
+    .cart__buy {
+        justify-content: end;
+
+        button {
+            width: 200px;
+            height: 50px;
+        }
+    }
+}
+
+@media (min-width: 767px) {
+    .cart {
+        width: 90%;
+        margin: 20px auto;
+    }
+}
+
+@media (min-width: 850px) {
+    .cart {
+        width: 87%;
+        margin: 30px auto;
+    }
+
+    .anyOrders {
+        p {
+            width: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            line-height: 30px;
+        }
+    }
+}
+
+@media (min-width: 920px) {
+    .page {
+        position: absolute;
+        min-height: 100%;
+        padding: inherit;
+        top: 0;
+        left: 0;
+    }
+
+    .cart {
+        width: 700px;
+        height: 550px;
+        margin: auto;
+        transform: translateY(-10px);
+    }
+
+    .cart__container {
+        margin-top: 17px;
+        overflow-y: scroll;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cart__info p {
+        font-size: 20px;
+    }
+
+    .cart__buy button {
+        width: 211px;
+        height: 55px;
+        font-size: 15px;
+    }
+}

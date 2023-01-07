@@ -1,0 +1,76 @@
+{
+    "pizzas": [
+        {   
+            "id": 1,
+            "title": "Чизбургер-пицца",
+            "imgURL": "/images/pizzas/pizza1.png",
+            "price": 170,
+            "feature": "Вегетарианские",
+            "orders": 23
+        },
+        {   
+            "id": 2,
+            "title": "Сырная",
+            "imgURL": "/images/pizzas/pizza2.png",
+            "price": 200,
+            "feature": "Закрытые",
+            "orders": 12
+        },
+        {   
+            "id": 3,
+            "title": "Креветки по-азиатски",
+            "imgURL": "/images/pizzas/pizza3.png",
+            "price": 120,
+            "feature": "Острые",
+            "orders": 37
+        },
+        {   
+            "id": 4,
+            "title": "Сырный цыпленок",
+            "imgURL": "/images/pizzas/pizza4.png",
+            "price": 180,
+            "feature": "Мясные",
+            "orders": 15
+        },
+        {   
+            "id": 5,
+            "title": "Чизбургер-пицца 2",
+            "imgURL": "/images/pizzas/pizza1.png",
+            "price": 175,
+            "feature": "Мясные",
+            "orders": 32
+        },
+        {   
+            "id": 6,
+            "title": "Сырная 2",
+            "imgURL": "/images/pizzas/pizza2.png",
+            "price": 205,
+            "feature": "Вегетарианские",
+            "orders": 78
+        },
+        {   
+            "id": 7,
+            "title": "Креветки по-азиатски 2",
+            "imgURL": "/images/pizzas/pizza3.png",
+            "price": 125,
+            "feature": "Острые",
+            "orders": 45
+        },
+        {   
+            "id": 8,
+            "title": "Сырный цыпленок 2",
+            "imgURL": "/images/pizzas/pizza4.png",
+            "price": 185,
+            "feature": "Мясные",
+            "orders": 56
+        }, 
+        {
+            "id": 9,
+            "title": "SECRET PIZZA",
+            "imgURL":"/images/pizzas/pizza5.png",
+            "price": 9999,
+            "feature": "Гриль",
+            "orders": 24
+        }
+    ]
+}
